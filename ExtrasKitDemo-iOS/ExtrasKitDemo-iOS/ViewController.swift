@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        UIBarButtonItem.ek.fixedSpace(width: 12)
     }
 
     override func didReceiveMemoryWarning() {

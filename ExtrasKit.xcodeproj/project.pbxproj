@@ -34,6 +34,8 @@
 		5B71F31126026A4900EEB16E /* UIColor+ExtrasKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F30626026A4900EEB16E /* UIColor+ExtrasKit.swift */; };
 		5B71F31226026A4900EEB16E /* UIView+ExtrasKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F30826026A4900EEB16E /* UIView+ExtrasKit.swift */; };
 		5B71F31326026A4900EEB16E /* UIView+Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B71F30926026A4900EEB16E /* UIView+Screenshot.swift */; };
+		5B7405282608A9F00090FE6B /* UIBarButtonItem+ExtrasKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7405272608A9F00090FE6B /* UIBarButtonItem+ExtrasKit.swift */; };
+		5B74052D2608EF200090FE6B /* UIBarButtonItem+FixedSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B74052C2608EF200090FE6B /* UIBarButtonItem+FixedSpace.swift */; };
 		D43FE318E73E903F50A7B644 /* Pods_ExtrasKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ECF280EC2F23EC55A6C08D /* Pods_ExtrasKit.framework */; };
 		F305935A9561752831AD405F /* Pods_ExtrasKit_ExtrasKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949AAD7EFCF071F9D4F003A5 /* Pods_ExtrasKit_ExtrasKitTests.framework */; };
 /* End PBXBuildFile section */
@@ -70,6 +72,8 @@
 		5B71F30626026A4900EEB16E /* UIColor+ExtrasKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ExtrasKit.swift"; sourceTree = "<group>"; };
 		5B71F30826026A4900EEB16E /* UIView+ExtrasKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ExtrasKit.swift"; sourceTree = "<group>"; };
 		5B71F30926026A4900EEB16E /* UIView+Screenshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Screenshot.swift"; sourceTree = "<group>"; };
+		5B7405272608A9F00090FE6B /* UIBarButtonItem+ExtrasKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+ExtrasKit.swift"; sourceTree = "<group>"; };
+		5B74052C2608EF200090FE6B /* UIBarButtonItem+FixedSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+FixedSpace.swift"; sourceTree = "<group>"; };
 		5DC935573ABC467E27D69080 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6D8D763650214551CFB6491A /* ExtrasKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ExtrasKit.podspec; sourceTree = "<group>"; };
 		949AAD7EFCF071F9D4F003A5 /* Pods_ExtrasKit_ExtrasKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtrasKit_ExtrasKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +157,7 @@
 		5B71F2FC26026A4900EEB16E /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				5B7405262608A9D30090FE6B /* UIBarButtonItem */,
 				5B71F2FD26026A4900EEB16E /* UIImage */,
 				5B71F30126026A4900EEB16E /* UIButton */,
 				5B71F30426026A4900EEB16E /* UIColor */,
@@ -196,6 +201,15 @@
 				5B71F30926026A4900EEB16E /* UIView+Screenshot.swift */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		5B7405262608A9D30090FE6B /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				5B7405272608A9F00090FE6B /* UIBarButtonItem+ExtrasKit.swift */,
+				5B74052C2608EF200090FE6B /* UIBarButtonItem+FixedSpace.swift */,
+			);
+			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
 		8C3D0D311B5F6F35B1C06531 /* Pods */ = {
@@ -398,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B74052D2608EF200090FE6B /* UIBarButtonItem+FixedSpace.swift in Sources */,
 				5B71F31026026A4900EEB16E /* UIColor+Hex.swift in Sources */,
 				5B71F30D26026A4900EEB16E /* UIImage+Orientation.swift in Sources */,
 				5B71F30E26026A4900EEB16E /* UIButton+Layout.swift in Sources */,
@@ -407,6 +422,7 @@
 				5B71F30A26026A4900EEB16E /* ExtrasKit.swift in Sources */,
 				5B71F31226026A4900EEB16E /* UIView+ExtrasKit.swift in Sources */,
 				5B71F31126026A4900EEB16E /* UIColor+ExtrasKit.swift in Sources */,
+				5B7405282608A9F00090FE6B /* UIBarButtonItem+ExtrasKit.swift in Sources */,
 				5B71F30C26026A4900EEB16E /* UIImage+Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
